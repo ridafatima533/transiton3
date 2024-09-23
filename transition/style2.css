@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 300px;
+    transition: width 2s;
+    background-image: url(image1.png.webp);
+}
+#div1{
+    transition-timing-function: linear;
+    background-image: url(image1.png.webp);
+}
+#div2{
+    transition-timing-function: ease;
+    background-image: url(image2.webp);
+}
+#div3{
+    transition-timing-function: ease-in;
+    background-image: url(image3.webp);
+}
+#div4{
+    transition-timing-function: ease-out;
+    background-image: url(image4.webp);
+}
+#div5{
+    transition-timing-function: ease-in-out;
+    background-image: url(image5.webp);
+}
+div:hover{
+    width: 600px;
+}

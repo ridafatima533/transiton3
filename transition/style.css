@@ -1,0 +1,36 @@
+div{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-duration: 9s;
+    animation-name: image;
+    background-image: url(image1.png.webp);
+}
+@keyframes image{
+0%{
+    background-image: url(image2.webp);
+    top: 0px;
+    left: 0px;
+}
+25%{
+    background-image: url(image5.webp);
+    top: 0px;
+    left: 500px;
+}
+50%{
+    background-image: url(image3.webp);
+    top: 500px;
+    left: 500px;
+}
+75%{
+    background-image: url(image4.webp);
+    left: 0px;
+    top: 500px;
+}
+100%{
+    background-image: url(image1.png.webp);
+    top: 0px;
+    left: 0px;
+
+}
+}

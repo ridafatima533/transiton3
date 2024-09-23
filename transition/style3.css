@@ -1,0 +1,23 @@
+div{
+    height: 400px;
+    width: 500px;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example{
+    0%{
+        background-image: url(image1.png.webp);
+    }
+    25%{
+        background-image: url(image2.webp);
+    }
+    50%{
+        background-image: url(image3.webp);
+    }
+    75%{
+        background-image: url(image4.webp);
+    }
+    100%{
+        background-image: url(image5.webp);
+    }
+}
